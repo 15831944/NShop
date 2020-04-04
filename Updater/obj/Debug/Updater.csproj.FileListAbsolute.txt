@@ -1,0 +1,46 @@
+G:\visual studio 2013\Projects\邮商宝\Code\Updater\bin\Debug\Start.exe
+G:\visual studio 2013\Projects\邮商宝\Code\Updater\bin\Debug\Start.pdb
+G:\visual studio 2013\Projects\邮商宝\Code\Updater\bin\Debug\AutoUpdater.NET.dll
+G:\visual studio 2013\Projects\邮商宝\Code\Updater\obj\Debug\Updater.csprojResolveAssemblyReference.cache
+G:\visual studio 2013\Projects\邮商宝\Code\Updater\obj\Debug\Start.exe
+G:\visual studio 2013\Projects\邮商宝\Code\Updater\obj\Debug\Start.pdb
+D:\开发项目-win平台\sdpost_ysb\Code\Updater\bin\Debug\Start.exe
+D:\开发项目-win平台\sdpost_ysb\Code\Updater\bin\Debug\Start.pdb
+D:\开发项目-win平台\sdpost_ysb\Code\Updater\bin\Debug\AutoUpdater.NET.dll
+D:\开发项目-win平台\sdpost_ysb\Code\Updater\obj\Debug\Updater.csprojResolveAssemblyReference.cache
+D:\开发项目-win平台\sdpost_ysb\Code\Updater\obj\Debug\Start.exe
+D:\开发项目-win平台\sdpost_ysb\Code\Updater\obj\Debug\Start.pdb
+E:\邮商宝\Code\Updater\bin\Debug\Updater.exe
+E:\邮商宝\Code\Updater\bin\Debug\Updater.pdb
+E:\邮商宝\Code\Updater\bin\Debug\AutoUpdater.NET.dll
+E:\邮商宝\Code\Updater\bin\Debug\sdpost.Param.dll
+E:\邮商宝\Code\Updater\bin\Debug\sdpost.Param.pdb
+E:\邮商宝\Code\Updater\obj\Debug\Updater.csprojResolveAssemblyReference.cache
+E:\邮商宝\Code\Updater\obj\Debug\Updater.exe
+E:\邮商宝\Code\Updater\obj\Debug\Updater.pdb
+E:\Projects\进销存\Code\Updater\bin\Debug\Updater.exe
+E:\Projects\进销存\Code\Updater\bin\Debug\Updater.pdb
+E:\Projects\进销存\Code\Updater\bin\Debug\AutoUpdater.NET.dll
+E:\Projects\进销存\Code\Updater\bin\Debug\sdpost.Param.dll
+E:\Projects\进销存\Code\Updater\bin\Debug\sdpost.Param.pdb
+E:\Projects\进销存\Code\Updater\obj\Debug\Updater.csprojResolveAssemblyReference.cache
+E:\Projects\进销存\Code\Updater\obj\Debug\Updater.exe
+E:\Projects\进销存\Code\Updater\obj\Debug\Updater.pdb
+E:\Projects\NShop进销存\Code\Updater\bin\Debug\Updater.exe
+E:\Projects\NShop进销存\Code\Updater\bin\Debug\Updater.pdb
+E:\Projects\NShop进销存\Code\Updater\bin\Debug\AutoUpdater.NET.dll
+E:\Projects\NShop进销存\Code\Updater\bin\Debug\NShop.Param.dll
+E:\Projects\NShop进销存\Code\Updater\bin\Debug\NShop.Param.pdb
+E:\Projects\NShop进销存\Code\Updater\obj\Debug\Updater.csprojResolveAssemblyReference.cache
+E:\Projects\NShop进销存\Code\Updater\obj\Debug\Updater.exe
+E:\Projects\NShop进销存\Code\Updater\obj\Debug\Updater.pdb
+D:\迅雷下载\NShop_1.1\NShop_1.1\Code\Updater\bin\Debug\Updater.exe
+D:\迅雷下载\NShop_1.1\NShop_1.1\Code\Updater\bin\Debug\Updater.pdb
+D:\迅雷下载\NShop_1.1\NShop_1.1\Code\Updater\bin\Debug\AutoUpdater.NET.dll
+D:\迅雷下载\NShop_1.1\NShop_1.1\Code\Updater\bin\Debug\NShop.Param.dll
+D:\迅雷下载\NShop_1.1\NShop_1.1\Code\Updater\bin\Debug\NShop.Param.pdb
+D:\迅雷下载\NShop_1.1\NShop_1.1\Code\Updater\obj\Debug\Updater.csprojAssemblyReference.cache
+D:\迅雷下载\NShop_1.1\NShop_1.1\Code\Updater\obj\Debug\Updater.csproj.CoreCompileInputs.cache
+D:\迅雷下载\NShop_1.1\NShop_1.1\Code\Updater\obj\Debug\Updater.csproj.CopyComplete
+D:\迅雷下载\NShop_1.1\NShop_1.1\Code\Updater\obj\Debug\Updater.exe
+D:\迅雷下载\NShop_1.1\NShop_1.1\Code\Updater\obj\Debug\Updater.pdb

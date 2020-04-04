@@ -1,0 +1,68 @@
+﻿<UserControl x:Class="NShop.Controls.Ribbon"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" xmlns:my="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon">
+    <Grid Name="grid1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <my:Ribbon Height="150" HorizontalAlignment="Stretch" Margin="0,-25,0,0" Name="ribbon1" VerticalAlignment="Top"
+                   HorizontalContentAlignment="Stretch" FontSize="13" FontFamily="Comic Sans MS" 
+                   ContextMenuOpening="ribbon1_ContextMenuOpening" PreviewMouseDown="ribbon1_PreviewMouseDown" PreviewMouseDoubleClick="ribbon1_PreviewMouseDoubleClick">
+            <my:Ribbon.ApplicationMenu>
+                <my:RibbonApplicationMenu Visibility="Collapsed">
+                    <my:RibbonApplicationMenuItem Header="关闭" x:Name="btnClose"/>
+                </my:RibbonApplicationMenu>
+            </my:Ribbon.ApplicationMenu>
+            <my:RibbonTab x:Name="HomeTab" Header="进销存">
+                <my:RibbonGroup x:Name="HomeG1" Header="进销存管理">
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnCash" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/59.png" Label="商品销售(F1)"/>
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnGoods" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/31.png" Label="商品管理(F2)" Margin="2,0,0,0" />
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnMember" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/16.png" Label="会员管理(F3)" Margin="2,0,0,0"  />
+                    <!--<my:RibbonButton x:FieldModifier="public" x:Name="btnReturn" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/33.png" Label="退货" />-->
+                </my:RibbonGroup>
+                <my:RibbonGroup x:Name="HomeG2" Header="查询统计">
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnIns" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/3.png" Label="入库记录(F4)" Margin="2,0,0,0" />
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnSales" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/37.png" Label="销售流水(F5)" Margin="2,0,0,0" />
+                    <my:RibbonSplitButton x:Name="btnReports" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/static.png" Label="销售分析" Margin="2,0,0,0">
+                        <my:RibbonButton  x:FieldModifier="public" x:Name="btnRpt1" Label="店铺销售分析" SmallImageSource="pack://application:,,,/NShop.Controls;component/Images/11.png"></my:RibbonButton>
+                        <my:RibbonButton  x:FieldModifier="public" x:Name="btnRpt2" Label="商品销售分析" SmallImageSource="pack://application:,,,/NShop.Controls;component/Images/11.png"></my:RibbonButton>
+                    </my:RibbonSplitButton>
+                </my:RibbonGroup>
+                <my:RibbonGroup x:Name="HomeG3" Header="系统">
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnChangePwd" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/pwd.png" Label="修改密码"/>
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnRestart" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/restart.png" Label="系统注销" Margin="2,0,0,0" />
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnExit" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/exit.png" Label="退出系统" Margin="2,0,0,0" />
+                </my:RibbonGroup>
+            </my:RibbonTab>
+            <my:RibbonTab x:Name="SystemTab" Header="系统设置" Padding="0">
+                <my:RibbonGroup x:Name="SystemG2" Header="系统常用设置">
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnPrintSetting" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/printer.png" Label="打印机设置" />
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnSysSetting" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/GoodsType.png" Label="使用习惯设置" Margin="2,0,0,0" />
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnSupplier" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/57.png" Label="供应商管理" Margin="2,0,0,0" />
+                </my:RibbonGroup>
+                <my:RibbonGroup x:Name="SystemG4" Header="店铺人员管理">
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnUserAdd" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/userAdd.png" Label="店员添加"/>
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnUserList" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/userList.png" Label="店员管理" Margin="2,0,0,0" />
+                </my:RibbonGroup>
+                <my:RibbonGroup x:Name="SystemG3" Header="系统类别管理">
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnGoodsType" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/GoodsType.png" Label="商品类别管理"/>
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnBrandType" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/BrandType.png" Label="商品品牌管理" Margin="2,0,0,0" />
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnUnitType" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/dic.png" Label="商品单位管理" Margin="2,0,0,0" />
+                </my:RibbonGroup>
+                <my:RibbonGroup x:Name="SystemG5" Header="数据库维护">
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnBackup" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/backup.png" Label="数据备份"/>
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnRestore" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/restore.png" Label="数据还原" Margin="2,0,0,0" />
+                </my:RibbonGroup>
+            </my:RibbonTab>
+            <my:RibbonTab x:Name="TestTab" Header="功能示例" Visibility="Hidden">
+                <my:RibbonGroup x:Name="TestG1" Header="基本功能">
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnTest" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/57.png" Label="测试功能" />
+                    <my:RibbonButton x:FieldModifier="public" x:Name="btnSelfSQL" LargeImageSource="pack://application:,,,/NShop.Controls;component/Images/16.png" Label="自定义SQL" />
+                </my:RibbonGroup>
+            </my:RibbonTab>
+        </my:Ribbon>
+    </Grid>
+</UserControl>

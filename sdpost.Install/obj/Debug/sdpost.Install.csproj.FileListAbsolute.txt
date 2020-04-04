@@ -1,0 +1,10 @@
+E:\邮商宝\Code\sdpost.Install\bin\Debug\sdpost.Install.dll
+E:\邮商宝\Code\sdpost.Install\bin\Debug\sdpost.Install.pdb
+E:\邮商宝\Code\sdpost.Install\obj\Debug\sdpost.Install.csprojResolveAssemblyReference.cache
+E:\邮商宝\Code\sdpost.Install\obj\Debug\sdpost.Install.dll
+E:\邮商宝\Code\sdpost.Install\obj\Debug\sdpost.Install.pdb
+E:\Projects\NShop进销存\Code\sdpost.Install\bin\Debug\sdpost.Install.dll
+E:\Projects\NShop进销存\Code\sdpost.Install\bin\Debug\sdpost.Install.pdb
+E:\Projects\NShop进销存\Code\sdpost.Install\obj\Debug\sdpost.Install.dll
+E:\Projects\NShop进销存\Code\sdpost.Install\obj\Debug\sdpost.Install.pdb
+E:\Projects\NShop进销存\Code\sdpost.Install\obj\Debug\sdpost.Install.csprojResolveAssemblyReference.cache
